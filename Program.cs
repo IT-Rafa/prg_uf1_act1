@@ -42,11 +42,16 @@ namespace Act_1_UF_1
         {
             string original = "ilerna online programación a 2º semestre 2022";
 
-            string upperTrim = original.Trim().ToUpper(); // para apartado 1a
-            string upperNoSpaces = ""; // para apartado 1b
-            int consTotal = 0; // para apartado 2
-            int digitTotal = 0; // para apartado 3
-            string consOnly = ""; // para apartado 4
+            // Variable ap1_a: mayúsculas sin espacios (respetamos intermedios)
+            string upperTrim = original.Trim().ToUpper();
+            // Variable ap1_b: mayúsculas sin espacios (ni siquiera intermedios)
+            string upperNoSpaces = "";
+            // Variable ap2: total de consonantes
+            int consTotal = 0;
+            // Variable ap3: total números
+            int digitTotal = 0;
+            // Variable ap4: consonantes en orden
+            string consOnly = "";
 
             //trabajar con una variable que contiene la información: 
             // “ilerna online programacion a 2º semestre 2022”
