@@ -31,20 +31,14 @@ namespace Act_1_UF_1
         /// <summary>
         /// Calcula y muestra el resultado del ejercicio
         /// </summary>
-        /// <remarks>
-        /// <b>Nota:</b> El apartado 1, según enunciado no debe llevar espacios, pero según ejemplo tiene espacios internos.<br/>
-        /// Incluyo ambas soluciones
-        /// </remarks>
         /// <param name="args">
         /// Argumentos, si se ejecuta desde consola (sin uso)
         /// </param>
         public static void Main()
         {
-            string original = "ilerna online programación a 2º semestre 2022";
+            string original = "ilerna online programacion a 2º semestre 2022";
 
-            // Variable ap1_a: mayúsculas sin espacios (respetamos intermedios)
-            string upperTrim = original.Trim().ToUpper();
-            // Variable ap1_b: mayúsculas sin espacios (ni siquiera intermedios)
+            // Variable ap1: mayúsculas sin espacios (ni siquiera intermedios)
             string upperNoSpaces = "";
             // Variable ap2: total de consonantes
             int consTotal = 0;
@@ -102,11 +96,6 @@ namespace Act_1_UF_1
             Console.WriteLine();
             // APARTADO 1
             Console.WriteLine("1º) Imprimir por consola la variable en mayúsculas sin espacios");
-
-            // Versión sin espacios iniciales y finales (como ejemplo)
-            Console.WriteLine(upperTrim);
-
-            // Versión sin ningún espacio (enunciado literal)
             Console.WriteLine(upperNoSpaces);
 
             Console.WriteLine();
